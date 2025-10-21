@@ -1,0 +1,7 @@
+C:\Users\zyrex\Documents\leyon\Praktik6.1_leon_xpplg2\Praktik6.1_leon_xpplg2\bin\Debug\Praktik6.1_leon_xpplg2.exe.config
+C:\Users\zyrex\Documents\leyon\Praktik6.1_leon_xpplg2\Praktik6.1_leon_xpplg2\bin\Debug\Praktik6.1_leon_xpplg2.exe
+C:\Users\zyrex\Documents\leyon\Praktik6.1_leon_xpplg2\Praktik6.1_leon_xpplg2\bin\Debug\Praktik6.1_leon_xpplg2.pdb
+C:\Users\zyrex\Documents\leyon\Praktik6.1_leon_xpplg2\Praktik6.1_leon_xpplg2\obj\Debug\Praktik6.1_leon_xpplg2.csproj.AssemblyReference.cache
+C:\Users\zyrex\Documents\leyon\Praktik6.1_leon_xpplg2\Praktik6.1_leon_xpplg2\obj\Debug\Praktik6.1_leon_xpplg2.csproj.CoreCompileInputs.cache
+C:\Users\zyrex\Documents\leyon\Praktik6.1_leon_xpplg2\Praktik6.1_leon_xpplg2\obj\Debug\Praktik6.1_leon_xpplg2.exe
+C:\Users\zyrex\Documents\leyon\Praktik6.1_leon_xpplg2\Praktik6.1_leon_xpplg2\obj\Debug\Praktik6.1_leon_xpplg2.pdb
