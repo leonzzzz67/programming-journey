@@ -1,0 +1,8 @@
+D:\LEON INDIANTONO- X PPLG 2\KonverSuhu_leon_xpplg2\KonverSuhu_leon_xpplg2\bin\Debug\KonverSuhu_leon_xpplg2.exe.config
+D:\LEON INDIANTONO- X PPLG 2\KonverSuhu_leon_xpplg2\KonverSuhu_leon_xpplg2\bin\Debug\KonverSuhu_leon_xpplg2.exe
+D:\LEON INDIANTONO- X PPLG 2\KonverSuhu_leon_xpplg2\KonverSuhu_leon_xpplg2\bin\Debug\KonverSuhu_leon_xpplg2.pdb
+D:\LEON INDIANTONO- X PPLG 2\KonverSuhu_leon_xpplg2\KonverSuhu_leon_xpplg2\obj\Debug\KonverSuhu_leon_xpplg2.csproj.AssemblyReference.cache
+D:\LEON INDIANTONO- X PPLG 2\KonverSuhu_leon_xpplg2\KonverSuhu_leon_xpplg2\obj\Debug\KonverSuhu_leon_xpplg2.csproj.CoreCompileInputs.cache
+D:\LEON INDIANTONO- X PPLG 2\KonverSuhu_leon_xpplg2\KonverSuhu_leon_xpplg2\obj\Debug\KonverSuhu_leon_xpplg2.exe
+D:\LEON INDIANTONO- X PPLG 2\KonverSuhu_leon_xpplg2\KonverSuhu_leon_xpplg2\obj\Debug\KonverSuhu_leon_xpplg2.pdb
+D:\LEON INDIANTONO- X PPLG 2\KonverSuhu_leon_xpplg2\KonverSuhu_leon_xpplg2\obj\Debug\KonverSuhu_leon_xpplg2.exe.config

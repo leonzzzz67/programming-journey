@@ -1,0 +1,7 @@
+D:\LEON INDIANTONO- X PPLG 2\Tugas perkalian_leon_xpplg2\Tugas perkalian_leon_xpplg2\bin\Debug\Tugas perkalian_leon_xpplg2.exe.config
+D:\LEON INDIANTONO- X PPLG 2\Tugas perkalian_leon_xpplg2\Tugas perkalian_leon_xpplg2\bin\Debug\Tugas perkalian_leon_xpplg2.exe
+D:\LEON INDIANTONO- X PPLG 2\Tugas perkalian_leon_xpplg2\Tugas perkalian_leon_xpplg2\bin\Debug\Tugas perkalian_leon_xpplg2.pdb
+D:\LEON INDIANTONO- X PPLG 2\Tugas perkalian_leon_xpplg2\Tugas perkalian_leon_xpplg2\obj\Debug\Tugas perkalian_leon_xpplg2.csproj.AssemblyReference.cache
+D:\LEON INDIANTONO- X PPLG 2\Tugas perkalian_leon_xpplg2\Tugas perkalian_leon_xpplg2\obj\Debug\Tugas perkalian_leon_xpplg2.csproj.CoreCompileInputs.cache
+D:\LEON INDIANTONO- X PPLG 2\Tugas perkalian_leon_xpplg2\Tugas perkalian_leon_xpplg2\obj\Debug\Tugas perkalian_leon_xpplg2.exe
+D:\LEON INDIANTONO- X PPLG 2\Tugas perkalian_leon_xpplg2\Tugas perkalian_leon_xpplg2\obj\Debug\Tugas perkalian_leon_xpplg2.pdb
