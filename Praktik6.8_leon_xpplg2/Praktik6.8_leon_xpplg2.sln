@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktik6.8_leon_xpplg2", "Praktik6.8_leon_xpplg2\Praktik6.8_leon_xpplg2.csproj", "{35C59E2F-D92F-4EAD-82C5-EE5A2C276AEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35C59E2F-D92F-4EAD-82C5-EE5A2C276AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C59E2F-D92F-4EAD-82C5-EE5A2C276AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C59E2F-D92F-4EAD-82C5-EE5A2C276AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C59E2F-D92F-4EAD-82C5-EE5A2C276AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EB110A2-43E5-4E66-BD81-5DF37B8260CB}
+	EndGlobalSection
+EndGlobal

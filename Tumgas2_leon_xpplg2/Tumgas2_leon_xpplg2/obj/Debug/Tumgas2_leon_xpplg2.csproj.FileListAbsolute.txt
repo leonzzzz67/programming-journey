@@ -1,0 +1,8 @@
+C:\Users\zyrex\Documents\leyon\Tumgas2_leon_xpplg2\Tumgas2_leon_xpplg2\bin\Debug\Tumgas2_leon_xpplg2.exe.config
+C:\Users\zyrex\Documents\leyon\Tumgas2_leon_xpplg2\Tumgas2_leon_xpplg2\bin\Debug\Tumgas2_leon_xpplg2.exe
+C:\Users\zyrex\Documents\leyon\Tumgas2_leon_xpplg2\Tumgas2_leon_xpplg2\bin\Debug\Tumgas2_leon_xpplg2.pdb
+C:\Users\zyrex\Documents\leyon\Tumgas2_leon_xpplg2\Tumgas2_leon_xpplg2\obj\Debug\Tumgas2_leon_xpplg2.csproj.AssemblyReference.cache
+C:\Users\zyrex\Documents\leyon\Tumgas2_leon_xpplg2\Tumgas2_leon_xpplg2\obj\Debug\Tumgas2_leon_xpplg2.csproj.CoreCompileInputs.cache
+C:\Users\zyrex\Documents\leyon\Tumgas2_leon_xpplg2\Tumgas2_leon_xpplg2\obj\Debug\Tumgas2_leon_xpplg2.exe
+C:\Users\zyrex\Documents\leyon\Tumgas2_leon_xpplg2\Tumgas2_leon_xpplg2\obj\Debug\Tumgas2_leon_xpplg2.pdb
+C:\Users\zyrex\Documents\leyon\Tumgas2_leon_xpplg2\Tumgas2_leon_xpplg2\obj\Debug\Tumgas2_leon_xpplg2.exe.config
