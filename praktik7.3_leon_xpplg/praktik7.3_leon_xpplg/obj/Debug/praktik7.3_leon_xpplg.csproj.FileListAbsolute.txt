@@ -1,0 +1,7 @@
+D:\LEON INDIANTONO- X PPLG 2\praktik7.3_leon_xpplg\praktik7.3_leon_xpplg\bin\Debug\praktik7.3_leon_xpplg.exe.config
+D:\LEON INDIANTONO- X PPLG 2\praktik7.3_leon_xpplg\praktik7.3_leon_xpplg\bin\Debug\praktik7.3_leon_xpplg.exe
+D:\LEON INDIANTONO- X PPLG 2\praktik7.3_leon_xpplg\praktik7.3_leon_xpplg\bin\Debug\praktik7.3_leon_xpplg.pdb
+D:\LEON INDIANTONO- X PPLG 2\praktik7.3_leon_xpplg\praktik7.3_leon_xpplg\obj\Debug\praktik7.3_leon_xpplg.csproj.AssemblyReference.cache
+D:\LEON INDIANTONO- X PPLG 2\praktik7.3_leon_xpplg\praktik7.3_leon_xpplg\obj\Debug\praktik7.3_leon_xpplg.csproj.CoreCompileInputs.cache
+D:\LEON INDIANTONO- X PPLG 2\praktik7.3_leon_xpplg\praktik7.3_leon_xpplg\obj\Debug\praktik7.3_leon_xpplg.exe
+D:\LEON INDIANTONO- X PPLG 2\praktik7.3_leon_xpplg\praktik7.3_leon_xpplg\obj\Debug\praktik7.3_leon_xpplg.pdb

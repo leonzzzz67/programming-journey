@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "praktik7 fungsi_hitung_luas_leon_xpplg2", "praktik7 fungsi_hitung_luas_leon_xpplg2\praktik7 fungsi_hitung_luas_leon_xpplg2.csproj", "{51B6AD66-E330-44AA-880B-2624EA89940B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51B6AD66-E330-44AA-880B-2624EA89940B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B6AD66-E330-44AA-880B-2624EA89940B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B6AD66-E330-44AA-880B-2624EA89940B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B6AD66-E330-44AA-880B-2624EA89940B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {868A5144-554D-4A32-872A-AE1322141463}
+	EndGlobalSection
+EndGlobal
