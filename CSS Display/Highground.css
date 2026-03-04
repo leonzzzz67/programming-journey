@@ -1,0 +1,29 @@
+.head {
+    background-color: lightblue;
+    text-align: center;
+    font-size: 29px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Navi {
+    text-align: center;
+    background-color: lightblue;
+}
+
+.Arc {
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+body {
+    background-color: skyblue;
+}
+
+.foot {
+    font-size: small;
+}
+
+.h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
