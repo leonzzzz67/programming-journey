@@ -1,0 +1,84 @@
+h2{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    
+}
+p{
+    font-family: monospace;
+    font-size: 20px;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    font-family: monospace;
+}
+body {
+    background-image:url(Pastry\ Wallpaper🥐🥖.jpg);
+    background-repeat: no-repeat;
+    background-size: 1290px;
+    
+}
+ul{
+    background: darkgoldenrod;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+li{
+    color: white;
+    background: darkgoldenrod;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+li a{
+    color: white;
+}
+li:hover,
+li:focus {
+    background: red;
+    cursor: pointer;
+}
+li:focus-within  a{
+    outline: none;
+}
+ul li ul {
+    background-color: orange;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: alla 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+ul li:hover ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+    visibility: visible;
+    opacity: 0;
+    display: block;
+} 
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+#products {
+    margin-top: 100px;
+    text-align: center;
+}
+.produk {
+    display: inline-block;
+    margin: 10px;
+}
