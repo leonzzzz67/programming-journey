@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permainan</title>
+    <link rel="stylesheet" href="gms.css">
+    <style>
+         .title{
+      width:700px;
+      max-width:90%;
+      margin:0 auto 40px;
+      background:white;
+      border-radius:50px;
+      padding:18px;
+      text-align:center;
+      font-size:42px;
+      font-weight:700;
+      font-family:'Baloo 2', cursive;
+      box-shadow:10px 10px ;
+    }
+
+    body {
+        background-image: url(✨Stars\ mobile\ wallpaper\ 1080x1920✨.jpg);
+    }
+    </style>
+</head>
+<body>
+    <div class="title">
+        Permainan
+    </div>
+
+    <!-- Area Permainan -->
+    <div id="memory-board" class="memory-game">
+        <!-- Kartu akan dibuat secara dinamis oleh JavaScript -->
+    </div>
+      <button onclick="resetMemoryGame()" class="btn-reset">Ulangi Permainan 🔄</button>
+
+      <div class="music-controls">
+    <audio id="game-music" loop src="bgm.mp3"></audio>
+    
+    <!-- Tombol Play (Hijau) -->
+    <button class="btn-music btn-play" onclick="playMusic()">
+        ▶️ Play
+    </button>
+
+    <!-- Tombol Stop (Merah) -->
+    <button class="btn-music btn-stop" onclick="stopMusic()">
+        ⏹️ Stop
+    </button>
+</div>
+<script>
+
+// --- Permainan Memory Game ---
+ const board = document.getElementById('memory-board');
+        const emojis = [
+            '⭐', '⭐', 
+            '🌙', '🌙', 
+            '📕', '📕', 
+            '🎲', '🎲', 
+            '☕', '☕', 
+            '🌵', '🌵', 
+            '🍕', '🍕', 
+            '🎸', '🎸'
+        ];
+        
+        let hasFlippedCard = false;
+        let lockBoard = false;
+        let firstCard, secondCard;
+
+        function shuffle(array) {
+            array.sort(() => 0.5 - Math.random());
+        }
+
+        function createBoard() {
+            board.innerHTML = '';
+            shuffle(emojis);
+            
+            emojis.forEach(emoji => {
+                const card = document.createElement('div');
+                card.classList.add('memory-card');
+                card.dataset.emoji = emoji;
+                
+                const frontFace = document.createElement('div');
+                frontFace.classList.add('front-face');
+                frontFace.textContent = emoji;
+                
+                const backFace = document.createElement('div');
+                backFace.classList.add('back-face');
+                backFace.textContent = '?';
+                
+                card.appendChild(frontFace);
+                card.appendChild(backFace);
+                card.addEventListener('click', flipCard);
+                board.appendChild(card);
+            });
+        }
+
+        function flipCard() {
+            if (lockBoard) return;
+            if (this === firstCard) return;
+            this.classList.add('flip');
+
+            if (!hasFlippedCard) {
+                hasFlippedCard = true;
+                firstCard = this;
+                return;
+            }
+
+            secondCard = this;
+            checkForMatch();
+        }
+
+        function checkForMatch() {
+            let isMatch = firstCard.dataset.emoji === secondCard.dataset.emoji;
+            isMatch ? disableCards() : unflipCards();
+        }
+
+        function disableCards() {
+            firstCard.removeEventListener('click', flipCard);
+            secondCard.removeEventListener('click', flipCard);
+            resetBoard();
+        }
+
+        function unflipCards() {
+            lockBoard = true;
+            setTimeout(() => {
+                firstCard.classList.remove('flip');
+                secondCard.classList.remove('flip');
+                resetBoard();
+            }, 1000);
+        }
+
+        function resetBoard() {
+            [hasFlippedCard, lockBoard] = [false, false];
+            [firstCard, secondCard] = [null, null];
+        }
+
+        function resetMemoryGame() {
+            const cards = document.querySelectorAll('.memory-card');
+            cards.forEach(card => card.classList.remove('flip'));
+            setTimeout(createBoard, 500);
+        }
+         let clickSound = new Audio('retro-arcade-game.mp3'); // Membuat pemutar baru setiap klik
+    clickSound.play(); // Perintah PUTAR (hanya akan jalan jika fungsi ini dipanggil)
+
+    const bgm = document.getElementById('game-music');
+
+// Fungsi Khusus Memutar
+function playMusic() {
+    clickSound.play().catch(error => {
+        console.log("Browser memblokir autoplay sampai user klik:", error);
+    });
+}
+
+// Fungsi Khusus Berhenti
+function stopMusic() {
+    clickSound.pause();
+    clickSound.currentTime = 0; // Kembalikan suara ke awal (00:00)
+}
+
+        createBoard();
+
+</script>    
+</body>
+<div style="text-align: center; margin-top: 40px; margin-bottom: 20px;">
+    <!-- href="index.html" artinya kembali ke file utama -->
+    <a href="Bored room.html" class="btn-home">
+        🏠 Kembali ke Beranda
+    </a>
+</div>
+</div>
+</html>
