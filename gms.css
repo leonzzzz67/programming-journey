@@ -1,0 +1,176 @@
+
+        /* --- 1. CSS DASAR --- */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        /* --- 2. JUDUL --- */
+        h1 {
+            font-size: 2rem; /* Diperkecil dari 2.5rem */
+            margin-bottom: 20px;
+            border: 3px solid #FFD700; 
+            padding: 10px 30px;
+            border-radius: 15px;
+            display: inline-block;
+            background-color: rgba(0,0,0,0.3);
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        }
+
+        /* --- 3. STYLE KOTAK UTAMA (CARD) --- */
+        .card {
+            background-color: #A1887F; /* Cokelat Muda */
+            color: #3E2723; /* Teks Cokelat Tua */
+            padding: 20px; /* Padding dikurangi agar lebih kompak */
+            border-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            
+            /* Lebar dikembalikan ke ukuran standar pas */
+            width: 100%;
+            max-width: 340px; 
+        }
+
+        .card h2 {
+            font-size: 1.5rem; /* Diperkecil */
+            margin-bottom: 10px;
+            border-bottom: 2px solid #5D4037;
+            width: 100%;
+            padding-bottom: 5px;
+        }
+
+        .card p { 
+            font-size: 0.9rem; /* Diperkecil */
+            margin-bottom: 15px; 
+        }
+
+        /* --- 4. STYLE MEMORY GAME --- */
+        .memory-game {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            aspect-ratio: 1 / 1;
+            gap: 5px; 
+            width: 40%;
+            margin: 0 auto;
+            background-color: #5D4037;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        .memory-card {
+            width: 100%; 
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.5s;
+            cursor: pointer;
+            background-color: #8D6E63;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+
+        .memory-card.flip {
+            transform: rotateY(180deg);
+            background-color: #D7CCC8;
+        }
+
+        .front-face, .back-face {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            backface-visibility: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .front-face {
+            transform: rotateY(180deg);
+            font-size: 1.5rem; /* Ukuran Emoji Diperkecil */
+            color: #3E2723;
+        }
+
+        .back-face {
+            color: #FFD700;
+            font-weight: bold;
+            font-size: 1.5rem; /* Ukuran Tanya Diperkecil */
+        }
+
+        /* Tombol Reset */
+        .btn-reset {
+            margin-top: 15px;
+            padding: 8px 20px;
+            background-color: #FFD700;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            color: #3E2723;
+            font-size: 0.9rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+        .btn-reset:hover { background-color: #FFA000; }
+
+        /* Tombol Kembali ke Beranda */
+    .btn-home {
+    display: inline-block;
+    background-color: #412615; /* Warna background */
+    color: white; /* Teks Putih */
+    padding: 12px 30px;
+    border-radius: 30px; /* Bentuk Pil */
+    text-decoration: none; /* Hilangkan garis bawah link */
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: all 0.3s;
+    position: fixed; /* Tombol akan melayang di atas konten lain */
+    bottom: 20px;    /* Jarak 20px dari bawah layar */
+    right: 20px;     /* Jarak 20px dari kanan layar */
+    z-index: 1000;   /* Pastikan tombol selalu di paling depan */
+        }
+
+/* Efek saat mouse di atas tombol */
+    .btn-home:hover {
+    background-color: #3E2723; /* coklat lebih gelap */
+    transform: scale(1.05); /* Sedikit membesar */
+    box-shadow: 0 6px 8px rgba(0,0,0,0.4);
+    }
+    
+    /* Wadah tombol musik */
+.music-controls {
+    display: flex; /* Berdampingan */
+    gap: 10px; /* Jarak antar tombol */
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+/* Style Umum Tombol */
+.btn-music {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Tombol Play (Hijau) */
+.btn-play {
+    background-color: #388E3C;
+    color: white;
+}
+.btn-play:hover { background-color: #2E7D32; transform: scale(1.05); }
+
+/* Tombol Stop (Merah) */
+.btn-stop {
+    background-color: #D32F2F;
+    color: white;
+}
+.btn-stop:hover { background-color: #C62828; transform: scale(1.05); }
